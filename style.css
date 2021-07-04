@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-header{
+header {
     margin: 20px 10px 20px 10px;
     border: 10px;
     padding: 10px;
@@ -10,4 +10,15 @@ header{
     text-align: center;
     color: #fff;
     background-color: #281B2D;
+}
+
+.headings {
+    margin: 20px 10px 20px 10px;
+    border: 5px;
+    padding: 10px;
+    font-size: 48px relative;
+    color: #FCD801;
+    background-color: #281B2D;
+    border-bottom-style: solid;
+    border-bottom-color: #00C54C;
 }
