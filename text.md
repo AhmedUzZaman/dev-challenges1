@@ -1,1 +1,4 @@
-Fix the image link
+- Create a subfolder for your CSS file
+- Create a CSS file (call it style.css)
+- In your HTML page, link to your CSS file
+- Set margin of the body to 0
