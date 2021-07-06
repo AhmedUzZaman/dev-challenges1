@@ -22,3 +22,9 @@ header {
     border-bottom-style: solid;
     border-bottom-color: #00C54C;
 }
+
+.container {
+    width: 1000px;
+    align-self: center;
+    background-color: antiquewhite;
+}
