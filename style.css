@@ -1,34 +1,48 @@
 body {
     margin: 0;
+    background-color: #d9ae94;
 }
 
+.rainbow {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+}
 
 header {
-    margin: 20px 10px 20px 10px;
-    border: 10px;
-    padding: 10px;
-    font-size: 72px relative;
+    border: 5px;
+    padding: 5px;
+    font-size: 1.5em;
     text-align: center;
-    color: #fff;
     background-color: #281B2D;
+
 }
 
 .headings {
     margin: 20px 10px 20px 10px;
     border: 5px;
     padding: 10px;
-    font-size: 48px relative;
+    font-size: 48px;
     color: #FCD801;
     background-color: #281B2D;
     border-bottom-style: solid;
     border-bottom-color: #00C54C;
-    
+    border-radius: 5px;
 }
 
 .container {
     max-width: 1000px relative;
     align-self: center;
-    
+    margin-top: 5px;
 }
 
 .white-text {
@@ -41,6 +55,8 @@ header {
     padding: 5px;
     border: 5px;
     width: 65%; 
+    background-color: #fff;
+    border-radius: 5px;
 }
  
 .sidebar {
@@ -49,21 +65,64 @@ header {
     margin: 5px;
     border: 5px;
     width: 30%;
+    background-color: #fadde1 ;
+    border-radius: 5px;
 }
 
 .left {
     float: left;
-    width: 50%;
-    /* padding: 10px;
+    width: 40%;
+    display: flex;
+    padding: 10px;
     margin: 5px;
-    border: 5px; */
+    border: 5px;
+    background-color: #e9ecef;
+    border-radius: 5px;
 }
 
 .right {
     float: right;
     width: 50%;
-    /* padding: 10px;
+    padding: 10px;
     margin: 5px;
-    border: 5px; */
+    border: 5px;
+    background-color: #cddafd;
+    border-radius: 5px;
 } 
+
+a {
+    color: #9d0208;
+}
+
+#source-size {
+    font-size: 0.75em;
+    font-weight: 600;
+}
+
+a:hover {
+    color: blue;
+    font-size: 1.5em;
+}
+
+
+div > p {
+    font-family: 'Exo 2', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+ul li {
+    font-family: 'PT Mono', monospace;
+    font-weight: 600;
+}
+
+li:hover {
+    font-size: 1.25em;
+    color: tomato;
+}
+
+ol li {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 600;
+}
 
